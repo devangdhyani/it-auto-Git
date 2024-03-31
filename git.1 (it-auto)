@@ -1,1 +1,9 @@
-ffdfdfdfdfd
+mkdir check
+cd check
+git init // initialize an empty git repository in the current directory.
+ls -la //We can check that this directory exists using the ls-la command 
+
+git add disk_usage.py //git add command passing the file that we want as a parameter. With that, we've added our file to the staging area.
+git status
+git commit // to teel we want to keep changes
+git commit -m 'add txt'
